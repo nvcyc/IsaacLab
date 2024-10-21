@@ -1,6 +1,7 @@
 Changelog
 ---------
 
+<<<<<<< HEAD
 0.10.14 (2024-12-03)
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -68,6 +69,8 @@ Fixed
   reward function. This makes sure the right IDs are selected for the bodies.
 
 
+=======
+>>>>>>> 995b8da8 (Update CHANGELOG.rst)
 0.10.7 (2024-10-02)
 ~~~~~~~~~~~~~~~~~~~
 
