@@ -2,6 +2,19 @@ Changelog
 ---------
 
 
+0.27.8 (2024-10-29)
+~~~~~~~~~~~~~~~~~~~
+
+Added
+^^^^^
+
+* Added :class:`~omni.isaac.lab.managers.RecorderManager` and its utility classes to record data from the simulation.
+* Added :class:`~omni.isaac.lab.utils.datasets.EpisodeData` to store data for an episode.
+* Added :class:`~omni.isaac.lab.utils.datasets.DatasetFileHandlerBase` as a base class for handling dataset files.
+* Added :class:`~omni.isaac.lab.utils.datasets.HDF5DatasetFileHandler` as a dataset file handler implementation to
+  export and load episodes from HDF5 files.
+
+
 0.27.7 (2024-10-28)
 ~~~~~~~~~~~~~~~~~~~
 
