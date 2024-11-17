@@ -209,7 +209,8 @@ class ManagerBasedRLEnv(ManagerBasedEnv, gym.Env):
             self.scene.write_data_to_sim()
 
             # update articulation kinematics
-            self.sim.update_fabric_and_kinematics()
+            self.scene.write_data_to_sim()
+            self.sim.forward()
             # if sensors are added to the scene, make sure we render to reflect changes in reset
             if self.sim.has_rtx_sensors() and self.cfg.rerender_on_reset:
                 self.sim.render()
